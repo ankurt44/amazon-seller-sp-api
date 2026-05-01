@@ -1,3 +1,2 @@
-python-amazon-sp-api==2.1.8
-cachetools==5.3.3
+amzn-sp-api==1.7.0
 python-dotenv==1.0.0
