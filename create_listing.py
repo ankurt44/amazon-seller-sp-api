@@ -133,6 +133,26 @@ LISTING_PAYLOAD = {
                 "marketplace_id": MARKETPLACE.marketplace_id,
             }
         ],
+        "size": [
+            {
+                "value": "Large",
+                "language_tag": "en_US",
+                "marketplace_id": MARKETPLACE.marketplace_id,
+            }
+        ],
+        "main_product_image_locator": [
+            {
+                # Replace with a real publicly accessible image URL before going to production
+                "media_location": "https://images.example.com/dog-bed-main.jpg",
+                "marketplace_id": MARKETPLACE.marketplace_id,
+            }
+        ],
+        "other_product_image_locator_1": [
+            {
+                "media_location": "https://images.example.com/dog-bed-side.jpg",
+                "marketplace_id": MARKETPLACE.marketplace_id,
+            }
+        ],
         "fulfillment_availability": [
             {
                 "fulfillment_channel_code": "DEFAULT",  # Merchant fulfilled; use "AMAZON_NA" for FBA
